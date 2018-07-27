@@ -12,6 +12,7 @@
 		1CA307312109CA9E00033AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3072F2109CA9E00033AB8 /* Main.storyboard */; };
 		1CA307332109CA9F00033AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA307322109CA9F00033AB8 /* Assets.xcassets */; };
 		1CA307362109CA9F00033AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA307342109CA9F00033AB8 /* LaunchScreen.storyboard */; };
+		1CA3073E2109CAEB00033AB8 /* Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3073D2109CAEB00033AB8 /* Mountain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1CA307322109CA9F00033AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA307352109CA9F00033AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CA307372109CA9F00033AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA3073D2109CAEB00033AB8 /* Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1CA3072B2109CA9E00033AB8 /* AppDelegate.swift */,
 				1CA3072D2109CA9E00033AB8 /* ViewController.swift */,
+				1CA3073D2109CAEB00033AB8 /* Mountain.swift */,
 				1CA3072F2109CA9E00033AB8 /* Main.storyboard */,
 				1CA307322109CA9F00033AB8 /* Assets.xcassets */,
 				1CA307342109CA9F00033AB8 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA3072E2109CA9E00033AB8 /* ViewController.swift in Sources */,
+				1CA3073E2109CAEB00033AB8 /* Mountain.swift in Sources */,
 				1CA3072C2109CA9E00033AB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +287,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCY5BEZ37J;
 				INFOPLIST_FILE = ClassTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yako.ClassTest;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.StepAppSchool.ClassTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,11 +306,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCY5BEZ37J;
 				INFOPLIST_FILE = ClassTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yako.ClassTest;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.StepAppSchool.ClassTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
